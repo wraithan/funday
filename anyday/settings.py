@@ -116,7 +116,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'anyday.core',
-    'gunicorn',
 )
 
 # A sample logging configuration. The only tangible logging
