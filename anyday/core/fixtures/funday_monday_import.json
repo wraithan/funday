@@ -1,0 +1,519 @@
+[
+  {
+    "pk": 1, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "The constraint is that the Zerg player is forbidden to make any Queens.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-183-funday-monday-no-queens/", 
+      "modified": "2012-09-13T12:01:54.491Z", 
+      "name": "No Queens!", 
+      "created": "2012-09-13T11:08:54.151Z"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Players may not expand until they have a carrier.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-188-funday-monday-with-carrier-rushes-funday-monday/", 
+      "modified": "2012-09-13T12:55:44.076Z", 
+      "name": "Carrier Rush", 
+      "created": "2012-09-13T12:05:24.904Z"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "The constraint this week is to play with no Marines, Marauders, or Tanks", 
+      "video": "http://day9.tv/d/Day9/day9-daily-193-funday-monday-no-marines-marauders-or-tanks/", 
+      "modified": "2012-09-13T12:06:28.898Z", 
+      "name": "No Marines, Marauders, or Tanks!", 
+      "created": "2012-09-13T12:06:28.898Z"
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Players must kill their opponents in alphabetical order in Free For All matches.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-200-funday-monday-alphabetical-free-for-all/", 
+      "modified": "2012-09-13T12:07:27.860Z", 
+      "name": "Alphabetical Free For All", 
+      "created": "2012-09-13T12:07:27.860Z"
+    }
+  }, 
+  {
+    "pk": 5, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Players must pick the same race and may not make the same Units all game long!", 
+      "video": "http://day9.tv/d/Day9/day9-daily-209-funday-monday-halfsies/", 
+      "modified": "2012-09-13T12:08:59.695Z", 
+      "name": "Halfsies!", 
+      "created": "2012-09-13T12:08:59.695Z"
+    }
+  }, 
+  {
+    "pk": 6, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "The constraint: the player must expand every 4 to 5 minutes.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-217-funday-monday-expo-hungry/", 
+      "modified": "2012-09-13T12:09:24.839Z", 
+      "name": "Expo Hungry", 
+      "created": "2012-09-13T12:09:24.839Z"
+    }
+  }, 
+  {
+    "pk": 7, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Players are given the following constraint: The player must attack your opponent(s) every 5 minutes and whenever you attack, you must emit a battle cry!", 
+      "video": "http://day9.tv/d/Day9/day9-daily-223-funday-monday-5-minute-attacks/", 
+      "modified": "2012-09-13T12:10:31.937Z", 
+      "name": "5 Minute Attacks!", 
+      "created": "2012-09-13T12:10:31.937Z"
+    }
+  }, 
+  {
+    "pk": 8, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Players are given the following constraint: Build a Battlecruiser before expanding.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-227-funday-monday-battlecruisers/", 
+      "modified": "2012-09-13T12:10:53.653Z", 
+      "name": "Battlecruisers!", 
+      "created": "2012-09-13T12:10:53.653Z"
+    }
+  }, 
+  {
+    "pk": 9, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Players must attack only through the use of Nydus Worms", 
+      "video": "http://day9.tv/d/Day9/day9-daily-237-funday-monday-nydus-crazy/", 
+      "modified": "2012-09-13T12:11:35.177Z", 
+      "name": "Nydus Crazy", 
+      "created": "2012-09-13T12:11:35.177Z"
+    }
+  }, 
+  {
+    "pk": 10, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "The constraint: Players can only attack using Warp Prism harassment until they have at least 3 bases.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-241-funday-monday-warp-prisms/", 
+      "modified": "2012-09-13T12:12:08.109Z", 
+      "name": "Warp Prisms", 
+      "created": "2012-09-13T12:12:08.109Z"
+    }
+  }, 
+  {
+    "pk": 11, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Players may expand anywhere BUT they cannot take their natural expansion. Ever.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-246-funday-monday-what-natural-expansion/", 
+      "modified": "2012-09-13T12:12:28.817Z", 
+      "name": "What Natural Expansion?", 
+      "created": "2012-09-13T12:12:28.817Z"
+    }
+  }, 
+  {
+    "pk": 12, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "The constraint: Players are asked to build Queens constantly throughout the game!", 
+      "video": "http://day9.tv/d/Day9/day9-daily-256-funday-monday-mass-queen/", 
+      "modified": "2012-09-13T12:24:00.544Z", 
+      "name": "Mass Queen!", 
+      "created": "2012-09-13T12:24:00.544Z"
+    }
+  }, 
+  {
+    "pk": 13, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Use contamination as much as possible!", 
+      "video": "http://day9.tv/d/Day9/day9-daily-260-funday-monday-contaminate-this/", 
+      "modified": "2012-09-13T12:27:59.704Z", 
+      "name": "Contaminate This!", 
+      "created": "2012-09-13T12:27:59.704Z"
+    }
+  }, 
+  {
+    "pk": 14, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "The constraint: One Fish Two Fish Red Fish NUKEFISH! Build a nuke before expanding and talk like Dr. Seuss before launching a nuke.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-277-funday-monday-nukes-and-seuss/", 
+      "modified": "2012-09-13T12:28:45.451Z", 
+      "name": "Nukes and Suess", 
+      "created": "2012-09-13T12:28:45.451Z"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Protoss players may only build 2 Warp Gates", 
+      "video": "http://day9.tv/d/Day9/day9-daily-280-funday-monday-on-tuesday/", 
+      "modified": "2012-09-13T12:29:13.320Z", 
+      "name": "2 Gate Challenge", 
+      "created": "2012-09-13T12:29:13.320Z"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "At the beginning of your game, you must name three Units. For the rest of the game, you may only make those three Units (and workers/buildings, of course).", 
+      "video": "http://day9.tv/d/Day9/day9-daily-284-funday-monday-count-to-three-encore/", 
+      "modified": "2012-09-13T12:29:45.215Z", 
+      "name": "Count to Three", 
+      "created": "2012-09-13T12:29:45.214Z"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "No Roaches, no Hydras, no Mutas, no Banelings - only 12 Zerglings all game! Fun Zerg play focused on late game tech & Units ensues.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-288-funday-monday-zerg-tier-tears/", 
+      "modified": "2012-09-13T12:30:16.212Z", 
+      "name": "Zerg Tier Tears", 
+      "created": "2012-09-13T12:30:16.212Z"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Terran players may only have 1 Barracks and 1 Factory working, the rest must be Starports.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-297-funday-monday-starportcraft/", 
+      "modified": "2012-09-13T12:31:29.424Z", 
+      "name": "StarportCraft", 
+      "created": "2012-09-13T12:31:29.424Z"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Name a unit and introduce it, then get as many kills as possible with it.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-302-funday-monday-hero-has-arrived/", 
+      "modified": "2012-09-13T12:39:15.965Z", 
+      "name": "Hero Has Arrived", 
+      "created": "2012-09-13T12:39:15.965Z"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Play with only your mouse!", 
+      "video": "http://day9.tv/d/Day9/day9-daily-311-funday-monday-no-keyboard-no-problem/", 
+      "modified": "2012-09-13T12:39:44.034Z", 
+      "name": "No Keyboard, No Problem", 
+      "created": "2012-09-13T12:39:44.034Z"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Protoss players may not build any pylons in their base.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-322-funday-monday-not-a-pylon-in-sight/", 
+      "modified": "2012-09-13T12:40:34.748Z", 
+      "name": "Not a Pylon in Sight", 
+      "created": "2012-09-13T12:40:34.748Z"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Players may only attack on creep.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-328-funday-monday-attack-on-creep/", 
+      "modified": "2012-09-13T12:41:01.051Z", 
+      "name": "Attack on Creep", 
+      "created": "2012-09-13T12:41:01.051Z"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Terran players must take their command center and planetary fortress rush!", 
+      "video": "http://day9.tv/d/Day9/day9-daily-332-funday-monday-planetary-fortress-rushing/", 
+      "modified": "2012-09-13T12:42:04.757Z", 
+      "name": "Planetary Fortress Rushing", 
+      "created": "2012-09-13T12:42:04.757Z"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Terran players must move their command center to another base before playing the game like normal.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-337-funday-monday-we-have-liftoff/", 
+      "modified": "2012-09-13T12:42:58.926Z", 
+      "name": "We Have Liftoff", 
+      "created": "2012-09-13T12:42:58.926Z"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "2v2 where one player can only build ground units and the other can only build air units!", 
+      "video": "http://day9.tv/d/Day9/day9-daily-339-funday-monday-one-if-by-land-two-if-by-sea/", 
+      "modified": "2012-09-13T12:43:42.394Z", 
+      "name": "One if by Land, Two if by Sea", 
+      "created": "2012-09-13T12:43:42.394Z"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Players are challenged to make do with only queens, spines, spores, Overlords, Overseers, Drones, and no other units.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-344-funday-monday-unitless-zerg-play/", 
+      "modified": "2012-09-13T12:44:09.085Z", 
+      "name": "Unitless Zerg Play", 
+      "created": "2012-09-13T12:44:09.085Z"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Protoss players are not allowed to make stalkers.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-347-funday-monday-no-stalkers/", 
+      "modified": "2012-09-13T12:44:34.616Z", 
+      "name": "No Stalkers!", 
+      "created": "2012-09-13T12:44:34.616Z"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Players have to expand 3 times before doing anything substantial.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-351-funday-monday-4-gate-try-4-base/", 
+      "modified": "2012-09-13T12:45:18.937Z", 
+      "name": "4 gate? Try 4 Base!", 
+      "created": "2012-09-13T12:45:18.937Z"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "2v2 where after the 5 minute mark one player may only build units and one player may only expand.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-359-funday-monday-2v2-money-dump/", 
+      "modified": "2012-09-13T12:46:03.175Z", 
+      "name": "2v2 Money Dump", 
+      "created": "2012-09-13T12:46:03.175Z"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Protoss players may only cannon rush!", 
+      "video": "http://day9.tv/d/Day9/day9-daily-362-funday-monday-cannon-rush/", 
+      "modified": "2012-09-13T12:46:23.097Z", 
+      "name": "Cannon Rush!", 
+      "created": "2012-09-13T12:46:23.097Z"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Players are not allowed to expand on their half of the map.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-364-funday-monday-the-wrong-side-of-the-bed/", 
+      "modified": "2012-09-13T12:46:54.454Z", 
+      "name": "The Wrong Side of the Bed", 
+      "created": "2012-09-13T12:46:54.454Z"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "All players must have a 50% handicap", 
+      "video": "http://day9.tv/d/Day9/day9-daily-368-funday-monday-half-health-battles/", 
+      "modified": "2012-09-13T12:47:30.724Z", 
+      "name": "Half Health Battles", 
+      "created": "2012-09-13T12:47:30.724Z"
+    }
+  }, 
+  {
+    "pk": 33, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Players are not allowed to expand until they have begun building a mothership.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-377-funday-monday-mothership-rush/", 
+      "modified": "2012-09-13T12:47:51.182Z", 
+      "name": "Mothership Rush", 
+      "created": "2012-09-13T12:47:51.182Z"
+    }
+  }, 
+  {
+    "pk": 34, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "4v4 where the team declares one of their teammates as the 'Champion'. The Champion may only have 20 supply of workers and the rest of the team can only have 20 supply of army.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-386-funday-monday/", 
+      "modified": "2012-09-13T12:49:08.312Z", 
+      "name": "Champion", 
+      "created": "2012-09-13T12:49:08.312Z"
+    }
+  }, 
+  {
+    "pk": 35, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Free For All. Players declare a single unit they are going to build, they cannot build others. Once a player has left, the players may pick another unit that they will build, etc etc.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-397-funday-monday-1-2-3-for-all/", 
+      "modified": "2012-09-13T12:51:49.126Z", 
+      "name": "1-2-3 For All", 
+      "created": "2012-09-13T12:51:49.125Z"
+    }
+  }, 
+  {
+    "pk": 36, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Players must ask their opponent to choose two Units (that don't start with the same letter and aren't workers) that the player will be prohibited from using", 
+      "video": "http://day9.tv/d/Day9/day9-daily-401-funday-monday-2-units-gone/", 
+      "modified": "2012-09-13T12:52:29.558Z", 
+      "name": "2 Units Gone", 
+      "created": "2012-09-13T12:52:29.558Z"
+    }
+  }, 
+  {
+    "pk": 37, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Players must bring all workers except for 10 in every engagement.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-405-funday-monday-kamikaze/", 
+      "modified": "2012-09-13T12:53:18.171Z", 
+      "name": "Kamakaze!", 
+      "created": "2012-09-13T12:53:18.171Z"
+    }
+  }, 
+  {
+    "pk": 38, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Zerg players must bring a spine crawler with every attack.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-410-funday-monday-defense-is-offense/", 
+      "modified": "2012-09-13T12:54:03.625Z", 
+      "name": "Defense is OFFENSE!", 
+      "created": "2012-09-13T12:54:03.625Z"
+    }
+  }, 
+  {
+    "pk": 39, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Zerg players must do as much damage as possible with burrowed banelings.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-423-burrowed-baneling-funday-monday/", 
+      "modified": "2012-09-13T12:55:16.573Z", 
+      "name": "Burrowed Banelings!", 
+      "created": "2012-09-13T12:55:16.573Z"
+    }
+  }, 
+  {
+    "pk": 40, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Players can only defend and counter attack.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-427-funday-monday-counterattack-only/", 
+      "modified": "2012-09-13T12:56:27.200Z", 
+      "name": "Counterattack Only", 
+      "created": "2012-09-13T12:56:27.200Z"
+    }
+  }, 
+  {
+    "pk": 41, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "All of vital structures must be powered by one Pylon, and that Pylon must not be in your base!", 
+      "video": "http://day9.tv/d/Day9/day9-daily-433-funday-monday/", 
+      "modified": "2012-09-13T12:57:05.463Z", 
+      "name": "Artosis Pylownage", 
+      "created": "2012-09-13T12:57:05.463Z"
+    }
+  }, 
+  {
+    "pk": 42, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Cannons must be the backbone of your army.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-455-funday-monday-cannon-pushing/", 
+      "modified": "2012-09-13T12:58:43.326Z", 
+      "name": "Cannon Pushing!", 
+      "created": "2012-09-13T12:58:43.326Z"
+    }
+  }, 
+  {
+    "pk": 43, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "You can build only air units.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-459-funday-monday-only-air/", 
+      "modified": "2012-09-13T12:59:01.737Z", 
+      "name": "Only Air!", 
+      "created": "2012-09-13T12:59:01.737Z"
+    }
+  }, 
+  {
+    "pk": 44, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Player must mind control an opponent's worker and build units of that race, then kill their opponent with their own race.", 
+      "video": "http://day9.tv/d/Day9/day9-daily-477-funday-monday-stop-hitting-yourself/", 
+      "modified": "2012-09-13T12:59:55.352Z", 
+      "name": "Stop Hitting Yourself!", 
+      "created": "2012-09-13T12:59:55.352Z"
+    }
+  }, 
+  {
+    "pk": 45, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "You may ONLY attack worker lines! Sure you can defend if you so desire, but you are absolutely disallowed from engaging the enemy army mid-map! KILL THEM WORKERS!", 
+      "video": "http://day9.tv/d/Day9/funday-monday-only-attack-worker-lines/", 
+      "modified": "2012-09-13T13:00:34.566Z", 
+      "name": "Only Attack Worker Lines", 
+      "created": "2012-09-13T13:00:34.566Z"
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Terran may only attack with nukes. ", 
+      "video": "http://day9.tv/d/Day9/funday-monday-nuke-to-win/", 
+      "modified": "2012-09-13T13:01:04.238Z", 
+      "name": "Nuke to Win", 
+      "created": "2012-09-13T13:01:04.237Z"
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "core.funday", 
+    "fields": {
+      "description": "Using as little number of units as possible kill your opponent.", 
+      "video": "http://day9.tv/d/Day9/funday-monday-kill-your-opponent-with-few-units/", 
+      "modified": "2012-09-13T13:01:32.766Z", 
+      "name": "Kill your opponent with few units", 
+      "created": "2012-09-13T13:01:32.766Z"
+    }
+  }
+]
