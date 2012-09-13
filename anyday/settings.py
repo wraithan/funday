@@ -1,8 +1,9 @@
+from os import environ
 from os.path import abspath, dirname, join
 
 import dj_database_url
 
-DEBUG = True
+DEBUG = False if environ.get('DATABASE_URL') else True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -59,7 +60,7 @@ STATIC_ROOT = ''
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = '/static/'
+STATIC_URL = 'http://wraithan.net/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
@@ -117,6 +118,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'anyday.core',
     'raven.contrib.django',
+    'gunicorn',
 )
 
 # A sample logging configuration. The only tangible logging
