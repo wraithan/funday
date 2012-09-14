@@ -3,7 +3,7 @@ from os.path import abspath, dirname, join
 
 import dj_database_url
 
-DEBUG = False if environ.get('DATABASE_URL') else True
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -12,7 +12,7 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-ROOT_DIR = dirname(dirname(abspath(__file__)))
+ROOT_DIR = dirname(dirname(abspath(__file__ + '/../')))
 SQLITE_PATH = join(ROOT_DIR, 'dev.db')
 
 
@@ -60,7 +60,7 @@ STATIC_ROOT = ''
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = 'http://wraithan.net/'
+STATIC_URL = '/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
