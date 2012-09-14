@@ -119,6 +119,7 @@ INSTALLED_APPS = (
     'anyday.core',
     'raven.contrib.django',
     'gunicorn',
+    'south',
 )
 
 # A sample logging configuration. The only tangible logging
