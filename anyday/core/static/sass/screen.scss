@@ -12,5 +12,33 @@
 
 // Generate the blueprint framework according to your configuration:
 @include blueprint;
-
 @include blueprint-scaffolding;
+
+$day9-orange: #ffa900;
+
+body {
+    font-family: "freight-sans-pro", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    background: #111 image-url('dark_wall.png');
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba($day9-orange, 0.25);
+    padding: 36px;
+
+    h1 {
+        color: $day9-orange;
+        font: 900 30px "nimbus-sans-extended", sans-serif;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
+    p {
+        color: rgba($day9-orange, 0.75);
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: lowercase;
+        margin: 0;
+    }
+}
