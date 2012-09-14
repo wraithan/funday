@@ -1,2 +1,3 @@
 dev.db
 .sass-cache
+*.pyc
