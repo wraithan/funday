@@ -1,4 +1,4 @@
-from fabric.api import task, local
+from fabric.api import task, local, lcd
 
 
 s3 = {
@@ -11,10 +11,6 @@ s3 = {
 def deploy():
     local('git push heroku')
     local('heroku run ./manage.py migrate')
-
-
-@task
-def push_assets():
     local('./manage.py collectstatic --noinput')
     local('s3sync.rb -r --progress collectedstatic/ %(bucket)s:%(key)s' % s3)
 
@@ -26,3 +22,9 @@ def style_check():
     ignore = ' '.join(['-not -ipath "*%s*"' % dir for dir in ignored_dirs])
     local('pyflakes `find . -iname "*.py" %s`' % ignore)
     local('pep8 . --exclude=%s' % ','.join(ignored_dirs))
+
+@task
+def build_docs():
+    with lcd('docs'):
+        local('pip install -r requirements.txt')
+        local('make html')

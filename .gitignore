@@ -2,3 +2,4 @@ dev.db
 .sass-cache
 *.pyc
 collectedstatic
+_build

@@ -6,11 +6,18 @@
 Welcome to Funday Anyday Roulette's documentation!
 ==================================================
 
+`Funday Anyday Roulette <http://fundayroulette.com/>`_ is a site that gives you
+a random :doc:`Funday Monday <monday>` to play. These docs mostly concern folks
+wanting to either work on the site or using the API.
+
+
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
+   developers
+   api
 
 
 Indices and tables
