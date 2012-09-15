@@ -1,0 +1,7 @@
+language: python
+python:
+ - "2.7"
+install:
+ - pip install fabric pep8 pyflakes --use-mirrors
+script:
+ - fab check_style
