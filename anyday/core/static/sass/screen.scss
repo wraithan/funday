@@ -12,5 +12,95 @@
 
 // Generate the blueprint framework according to your configuration:
 @include blueprint;
-
 @include blueprint-scaffolding;
+
+$day9-orange: #ffa900;
+
+a {
+  text-decoration: none; }
+
+body {
+  font-family: "freight-sans-pro", sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  background: #111 image-url('dark_wall.png');
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba($day9-orange, 0.25);
+  padding: 36px;
+
+  h1 {
+    color: $day9-orange;
+    font: 900 30px "nimbus-sans-extended", sans-serif;
+    line-height: 30px;
+    margin-bottom: 0;
+
+    span {
+      display: block;
+      position: relative;
+      text-align: left;
+      line-height: 26px;
+      width: 325px;
+      margin: 0 auto;
+    }
+    em {
+      font-family: "bistro-script-web";
+      text-transform: capitalize;
+      display: block;
+      font-size: 64px;
+      position: absolute;
+      top: 16px; right: 0;
+    }
+  }
+  p {
+    color: rgba(white, 0.5);
+    font-size: 16px;
+    text-transform: lowercase;
+    text-shadow: 0 1px 0 rgba(white, 0.1);
+    margin: 0;
+  }
+}
+
+h2 {
+  color: rgba(black, 0.5);
+  text-align: center;
+  border-bottom: 1px solid rgba(black, 0.1);
+  padding: 24px 0;
+}
+
+.choice {
+  text-align: center;
+  font-size: 24px;
+  color: rgba(black, 0.5);
+  padding: 24px 0 36px;
+
+  h3 {
+    color: $day9-orange;
+    font-family: "nimbus-sans-extended", sans-serif;
+    font-size: 64px;
+    letter-spacing: -3px;
+    line-height: 64px;
+    text-transform: lowercase;
+    text-shadow: 0 2px 0 rgba($day9-orange, 0.25);
+
+    margin-bottom: 12px;
+  }
+  p {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.25;
+  }
+  p + p {
+    margin-top: 48px;
+    font-size: 18px;
+  }
+
+}
+
+footer {
+  border-top: 1px solid rgba(black, 0.1);
+  padding-top: 24px;
+}
