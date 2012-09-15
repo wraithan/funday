@@ -4,4 +4,4 @@ python:
 install:
  - pip install fabric pep8 pyflakes --use-mirrors
 script:
- - fab check_style
+ - fab style_check
