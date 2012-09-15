@@ -19,7 +19,9 @@ class FundayResource(ModelResource):
 
     def prepend_urls(self):
         return [
-            url(r"^(?P<resource_name>%s)/random/$" % self._meta.resource_name, self.wrap_view('get_random'), name="api_get_random"),
+            url(r'^(?P<resource_name>%s)/random/$' % self._meta.resource_name,
+                self.wrap_view('get_random'),
+                name='api_get_random'),
         ]
 
     def get_random(self, request, **kwargs):

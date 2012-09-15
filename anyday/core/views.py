@@ -25,13 +25,15 @@ class RaceRandomFundayView(RandomFundayView):
         if self.race in ['protoss', 'terran', 'zerg']:
             kwargs[self.race] = True
 
-        return super(RaceRandomFundayView, self).get_queryset().filter(**kwargs)
+        qs = super(RaceRandomFundayView, self).get_queryset()
+        return qs.filter(**kwargs)
 
     def get_template_names(self):
         return ['home.html']
 
     def get_context_data(self, *args, **kwargs):
-        data = super(RaceRandomFundayView, self).get_context_data(*args, **kwargs)
+        data = super(RaceRandomFundayView, self).get_context_data(*args,
+                                                                  **kwargs)
         data['race'] = self.race
         return data
 
