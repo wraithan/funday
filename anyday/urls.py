@@ -4,7 +4,7 @@ from django.contrib import admin
 from tastypie.api import Api
 
 from core.api.resources import FundayResource
-from core.views import RandomFundayView
+from core.views import RandomFundayView, RaceRandomFundayView
 
 
 admin.autodiscover()
@@ -19,4 +19,7 @@ urlpatterns = patterns(
         name='home'),
     url(r'^api/', include(v1_api.urls)),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^(?P<race>\w+)/$',
+        RaceRandomFundayView.as_view(),
+        name='random_race'),
 )

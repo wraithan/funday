@@ -10,6 +10,47 @@
     <p>{{ object.description|typogrify }}</p>
     <p><strong>Don't remember that one? For shame.</strong><br><a href="{{ object.video }}">View the <strong>&ldquo;{{object.name}}&rdquo;</strong> episode of Funday Monday!</a></p>
   </div>
+
+  <style type="text/css">
+    /* So Bryan can hate me... */
+    .race_specific h4 {
+      color: rgba(0, 0, 0, 0.5);
+      margin-bottom: 5px;
+      padding: 24px 0 0px 0;
+      text-align: center;
+    }
+    .race_specific ul {
+      list-style: none;
+    }
+    .race_specific ul li {
+      display: inline;
+      padding-right: 10px;
+    }
+  </style>
+  <div class="container race_specific">
+    <h4>Want a race-specific funday?</h4>
+    <ul>
+      <li>
+        {% if not race %}<strong>{% endif %}
+        <a href="{% url home %}">All</a>
+        {% if not race %}</strong>{% endif %}
+      </li>
+      <li>
+        {% if race and race == 'protoss' %}<strong>{% endif %}
+        <a href="{% url random_race race='protoss' %}">Protoss</a>
+        {% if race and race == 'protoss' %}</strong>{% endif %}
+      </li>
+      <li>
+        {% if race and race == 'terran' %}<strong>{% endif %}
+        <a href="{% url random_race race='terran' %}">Terran</a>
+        {% if race and race == 'terran' %}</strong>{% endif %}
+      </li>
+      <li>
+        {% if race and race == 'zerg' %}<strong>{% endif %}
+        <a href="{% url random_race race='zerg' %}">Zerg</a>
+        {% if race and race == 'zerg' %}</strong>{% endif %}
+      </li>
+  </div>
 </div>
 
 <footer class="site-description">
