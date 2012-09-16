@@ -1,16 +1,7 @@
 {% extends 'base.html' %}
 {% load typogrify_tags %}
 
-{% block content %}
-<h2>Rejoice, for your <em>random funday</em> is:</h2>
-
-<div class="choice">
-  <div class="container">
-    <h3>&ldquo;{{ object.name }}&rdquo;</h3>
-    <p>{{ object.description|typogrify }}</p>
-    <p><strong>Don't remember that one? For shame.</strong><br><a href="{{ object.video }}">View the <strong>&ldquo;{{object.name}}&rdquo;</strong> episode of Funday Monday!</a></p>
-  </div>
-
+{% block head %}
   <style type="text/css">
     /* So Bryan can hate me... */
     .race_specific h4 {
@@ -27,6 +18,18 @@
       padding-right: 10px;
     }
   </style>
+{% endblock head %}
+
+{% block content %}
+<h2>Rejoice, for your <em>random funday</em> is:</h2>
+
+<div class="choice">
+  <div class="container">
+    <h3>&ldquo;{{ object.name }}&rdquo;</h3>
+    <p>{{ object.description|typogrify }}</p>
+    <p><strong>Don't remember that one? For shame.</strong><br><a href="{{ object.video }}">View the <strong>&ldquo;{{object.name}}&rdquo;</strong> episode of Funday Monday!</a></p>
+  </div>
+
   <div class="container race_specific">
     <h4>Want a race-specific funday?</h4>
     <ul>
@@ -50,6 +53,7 @@
         <a href="{% url random_race race='zerg' %}">Zerg</a>
         {% if race and race == 'zerg' %}</strong>{% endif %}
       </li>
+    </ul>
   </div>
 </div>
 
