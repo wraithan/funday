@@ -1,3 +1,4 @@
+{% load url from future %}
 <!doctype html>
 <html>
   <head>
@@ -17,7 +18,9 @@
   </head>
   <body>
     <header>
+      <a href="{% url 'home' %}">
       <h1><span>Funday<br>Anyday <em>Roulette</em></span></h1>
+      </a>
       <p>Because everyday should be a <strong>Funday Monday</strong>.</p>
     </header>
     {% block content %}
