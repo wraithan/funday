@@ -121,7 +121,12 @@ INSTALLED_APPS = (
     'south',
     'typogrify',
     'tastypie',
+    'webmaster-verification',
 )
+
+WEBMASTER_VERIFICATION = {
+    'google': '1f4b7887cafebb55',
+}
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
