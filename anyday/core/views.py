@@ -3,8 +3,16 @@ from django.views.generic.detail import DetailView
 from .models import Funday
 
 
-class RandomFundayView(DetailView):
+class FundayView(DetailView):
     model = Funday
+
+    def get_template_names(self):
+        return ['home.html']
+
+
+class RandomFundayView(FundayView):
+    def get_queryset(self):
+        return super(RandomFundayView, self).get_queryset().order_by('?')
 
     def get_object(self, *args, **kwargs):
         base_qs = self.get_queryset()
@@ -13,9 +21,6 @@ class RandomFundayView(DetailView):
             return base_qs[0]
         else:
             return None
-
-    def get_queryset(self):
-        return super(RandomFundayView, self).get_queryset().order_by('?')
 
 
 class RaceRandomFundayView(RandomFundayView):
@@ -27,9 +32,6 @@ class RaceRandomFundayView(RandomFundayView):
 
         qs = super(RaceRandomFundayView, self).get_queryset()
         return qs.filter(**kwargs)
-
-    def get_template_names(self):
-        return ['home.html']
 
     def get_context_data(self, *args, **kwargs):
         data = super(RaceRandomFundayView, self).get_context_data(*args,

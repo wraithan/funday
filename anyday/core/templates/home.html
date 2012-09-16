@@ -17,6 +17,9 @@
       display: inline;
       padding-right: 10px;
     }
+    small {
+      font-size: 50%;
+    }
   </style>
 {% endblock head %}
 
@@ -28,6 +31,7 @@
     <h3>&ldquo;{{ object.name }}&rdquo;</h3>
     <p>{{ object.description|typogrify }}</p>
     <p><strong>Don't remember that one? For shame.</strong><br><a href="{{ object.video }}">View the <strong>&ldquo;{{object.name}}&rdquo;</strong> episode of Funday Monday!</a></p>
+    <small><a href="{% url funday object.pk %}">permalink to this funday</a></small>
   </div>
 
   <div class="container race_specific">
