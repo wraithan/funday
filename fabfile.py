@@ -23,6 +23,7 @@ def style_check():
     local('pyflakes `find . -iname "*.py" %s`' % ignore)
     local('pep8 . --exclude=%s' % ','.join(ignored_dirs))
 
+
 @task
 def build_docs():
     with lcd('docs'):
