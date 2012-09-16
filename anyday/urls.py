@@ -19,8 +19,7 @@ urlpatterns = patterns(
         name='home'),
     url(r'^funday/(?P<pk>\d+)/$',
         FundayView.as_view(),
-        name='funday'
-    ),
+        name='funday'),
     url(r'^api/', include(v1_api.urls)),
     url(r'^admin/', include(admin.site.urls)),
     url(r'', include('webmaster_verification.urls')),
