@@ -121,7 +121,7 @@ INSTALLED_APPS = (
     'south',
     'typogrify',
     'tastypie',
-    'webmaster-verification',
+    'webmaster_verification',
 )
 
 WEBMASTER_VERIFICATION = {
