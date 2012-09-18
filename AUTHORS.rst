@@ -3,6 +3,6 @@ Authors
 
 * Wraithan (development)
 * Bryan Veloso (design)
-* Daniel Lindsley (api and race selector)
+* Daniel Lindsley (api and filtering)
 
 https://github.com/wraithan/funday/contributors
